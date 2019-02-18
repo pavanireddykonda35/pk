@@ -2,7 +2,7 @@ node{
     stage('build now') {
 git ' https://github.com/pavanireddykonda35/pk.git'
     }
-    stage('build mvn") {
+    stage('build mvn') {
 sh 'mvn package'
     }
     stag('test result') {
